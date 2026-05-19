@@ -1,0 +1,22 @@
+streamlit # For Deployment of website.
+
+# Utilities
+numpy  # Array and Mathematical calculations.
+pandas # Data ko table format mei handle karne ke liye.
+
+# FACE RECOGNITION
+scikit-learn
+dlib-bin # Face Detection library
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0  # Dependancy manager/build tool haii.
+
+
+supabase # database-backend se connect krne ke liye.
+bcrypt   # password secure karne ke liye encryption.
+
+segno   # QR code generate karne ke liye.
+pillow  # Images/Edit process karne ke liye.
+
+
+librosa # Audio Files Edit/Load
+resemblyzer # Make Embeddings Voice Recongition
