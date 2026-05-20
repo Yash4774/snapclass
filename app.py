@@ -4,12 +4,12 @@ import streamlit as st
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath("."))
+sys.path.insert(0, os.path.abspath("src"))
 
 from home_screen import home_screen
 from teacher_screen import teacher_screen
 from student_screen import student_screen
-from src.src_screens.components.dialog_auto_enroll import auto_enroll_dialog
+from src_screens.components.dialog_auto_enroll import auto_enroll_dialog
 
 def main():
     st.set_page_config(
