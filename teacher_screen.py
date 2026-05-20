@@ -1,11 +1,11 @@
-from src.src_screens.database.db import check_teacher_exists
+from  src_screens.database.db import check_teacher_exists
 import streamlit as st
 
-from src.src_screens.components.header import header_dashboard
-from src.src_screens.components.footer import footer_dashboard
-from src.src_screens.components.subject_card import subject_card
+from  src_screens.components.header import header_dashboard
+from  src_screens.components.footer import footer_dashboard
+from  src_screens.components.subject_card import subject_card
 
-from src.src_screens.database.db import (
+from  src_screens.database.db import (
     check_teacher_exists,
     create_teacher,
     teacher_login,
@@ -18,21 +18,21 @@ from style_base_layout import (
     style_base_layout
 )
 
-from src.src_screens.components.dialog_create_subject import create_subject_dialog
-from src.src_screens.components.dialogue_share_subject import share_subject_dialog
-from src.src_screens.components.dialog_add_photo import add_photos_dialog
+from  src_screens.components.dialog_create_subject import create_subject_dialog
+from  src_screens.components.dialogue_share_subject import share_subject_dialog
+from  src_screens.components.dialog_add_photo import add_photos_dialog
 
-from src.pipelines.face_pipeline import predict_attendance
+from  pipelines.face_pipeline import predict_attendance
 
 import numpy as np
 import pandas as pd
 
-from src.src_screens.database.config import supabase
-from src.src_screens.components.attendance_result_dialog import attendance_result_dialog
+from  src_screens.database.config import supabase
+from  src_screens.components.attendance_result_dialog import attendance_result_dialog
 
 from datetime import datetime
 
-from src.src_screens.components.dialog_voice_attendance import voice_attendance_dialog
+from  src_screens.components.dialog_voice_attendance import voice_attendance_dialog
 
 
 
