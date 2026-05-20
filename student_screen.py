@@ -1,23 +1,26 @@
 import streamlit as st
-
-from style_base_layout import (
-    style_background_dashboard,
-    style_base_layout
-)
-
-from src_screens.components.header import header_dashboard
-from src_screens.components.footer import footer_dashboard
-from src_screens.database.db import get_all_students, create_student, get_student_subjects, get_student_attendance, unenroll_student_to_subject
-from src_screens.components.dialog_enroll import enroll_dialog
-from src_screens.components.dialog_auto_enroll import auto_enroll_dialog
-from src_screens.components.subject_card import subject_card
-from pipeliness.voice_pipeline import get_voice_embedding
-
-from PIL import Image
 import numpy as np
 import time
+from style_base_layout import style_base_layout, style_background_dashboard
+from PIL import Image
+from src.src_screens.components.header import header_dashboard
+from src.src_screens.components.footer import footer_dashboard
 
-from pipeliness.face_pipeline import (
+from src.src_screens.database.db import (
+    get_all_students,
+    create_student,
+    get_student_subjects,
+    get_student_attendance,
+    unenroll_student_to_subject
+)
+
+from src.src_screens.components.dialog_enroll import enroll_dialog
+from src.src_screens.components.dialog_auto_enroll import auto_enroll_dialog
+from src.src_screens.components.subject_card import subject_card
+
+from src.pipelines.voice_pipeline import get_voice_embedding
+
+from src.pipelines.face_pipeline import (
     predict_attendance,
     get_face_embedding,
     train_classifier
