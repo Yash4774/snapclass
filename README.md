@@ -1,4 +1,5 @@
-# 🚀 SnapClass
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://snapclass-web.streamlit.app)
+# 🏫 SnapClass
 
 AI Powered Smart Attendance System
 
@@ -14,18 +15,18 @@ AI Powered Smart Attendance System
 - Auto Enrollment
 - Attendance Analytics
 
-## 🌐 Live Demo
-https://snapclass-web.streamlit.app
+## 🌐 Live Demo & Landing Page
+- https://snapclass-web.streamlit.app
+- 
 
 ## 🛠 Tech Stack
 - Python
 - Streamlit
 - Supabase
 - OpenCV
-- Face Recognition AI
-
-## 📸 Screenshots
-(Add screenshots here)
+- Face Recognition using  AI
+- Voice Recognition using AI
+  
 
 ## 👨‍💻 Developed with
 Apna Collage | Yash
