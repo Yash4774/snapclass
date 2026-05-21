@@ -1,4 +1,3 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://snapclass-web.streamlit.app)
 # 🏫 SnapClass
 
 AI Powered Smart Attendance System
