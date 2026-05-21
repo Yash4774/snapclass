@@ -14,9 +14,8 @@ AI Powered Smart Attendance System
 - Auto Enrollment
 - Attendance Analytics
 
-## 🌐 Live Demo & Landing Page
-- https://snapclass-web.streamlit.app
-- 
+## 🌐 Live Demo & Documentation Here:
+- https://sc-landing-page-orcin.vercel.app/
 
 ## 🛠 Tech Stack
 - Python
