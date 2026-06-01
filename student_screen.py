@@ -219,7 +219,7 @@ def student_screen():
                         st.session_state.is_logged_in = True
                         st.session_state.user_role = 'student'
                         join_code = st.query_params.get("join-code")
-                        show_registration=False
+                        show_registration=True
 
 
                         st.session_state.student_data = student
