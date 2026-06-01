@@ -27,11 +27,8 @@ from  pipelines.face_pipeline import (
 )
 def student_dashboard():
     join_code = st.query_params.get("join-code")
-    st.write("join_code =", join_code)
-    st.write("query_params =", st.query_params)
 
-    if join_code and 'auto_enroll_done' not in st.session_state:
-        st.session_state.auto_enroll_done = True
+        # st.session_state.auto_enroll_done = True
         # auto_enroll_dialog(join_code)
 
     if 'student_data' not in st.session_state:

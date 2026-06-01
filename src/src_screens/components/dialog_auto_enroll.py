@@ -32,6 +32,7 @@ def auto_enroll_dialog(join_code):
 
     with col1:
         if st.button('No thanks'):
+
             st.query_params.clear()
             st.rerun()
     with col2:
