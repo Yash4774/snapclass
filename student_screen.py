@@ -225,9 +225,9 @@ def student_screen():
                         st.session_state.student_data = student
 
                         if join_code and not show_registration:
-                            auto_enroll_dialog(join_code)
-                        st.toast(f"Welcome Back 👋 {student.get('name') or student.get('student_name')}")
-                        time.sleep(1)
+                            # auto_enroll_dialog(join_code)
+                            st.toast(f"Welcome Back 👋 {student.get('name') or student.get('student_name')}")
+                            time.sleep(1)
                 else:
                     st.info('Face not recognized! You might be a new student!')
                     show_registration = True
