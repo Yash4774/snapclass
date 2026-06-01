@@ -228,7 +228,6 @@ def student_screen():
                             auto_enroll_dialog(join_code)
                         st.toast(f"Welcome Back 👋 {student.get('name') or student.get('student_name')}")
                         time.sleep(1)
-                        st.rerun()
                 else:
                     st.info('Face not recognized! You might be a new student!')
                     show_registration = True
